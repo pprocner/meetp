@@ -91,7 +91,7 @@ public class Register extends Activity {
         
         final Button loginAvailableButton = (Button)findViewById(R.id.login_available_button);
         loginAvailableButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+      	  @Override
             public void onClick(View v) {
             	new CheckAvailabilityTask().execute(loginREdittext.getText().toString());;
             }

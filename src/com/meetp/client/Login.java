@@ -19,6 +19,7 @@ import android.widget.Spinner;
  * 
  * 	Jest to klasa startowa aplikacji. Opisuje ekran logowania.
  * 	Layout aktywności znajduje się w pliku login.xml.
+ * 	//Test Lewy Commit
  */
 public class Login extends Activity {
 	
