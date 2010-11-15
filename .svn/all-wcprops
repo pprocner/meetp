@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/81/trunk/AndroidApp
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/81/trunk/AndroidApp/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/28/trunk/AndroidApp/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/28/trunk/AndroidApp/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/81/trunk/AndroidApp/AndroidManifest.xml
+END

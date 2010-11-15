@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="25sp"  
+    android:text="@string/app_name"
+    />
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginBottom="10px"
+    android:text="@string/rejestracja"
+    />
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/login"
+    />
+<EditText android:id="@+id/login_r_edittext"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:maxLines="1"
+    android:layout_marginBottom="10px"
+    android:inputType="text"/>
+<Button android:id="@+id/login_available_button"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginBottom="10px"
+	android:text="@string/dostepnosc"
+	/>
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/haslo"
+    />
+<EditText android:id="@+id/password_r_edittext"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10px"
+    android:inputType="textPassword"/>
+<TextView
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/powtorz_haslo"
+    />
+<EditText android:id="@+id/password_rep_edittext"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10px"
+    android:inputType="textPassword"/>
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/email"
+	/>
+<EditText android:id="@+id/email_edittext"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10px"
+   	/>
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/serwer"
+    />
+<Spinner 
+    android:id="@+id/server_r_spinner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10px"
+    android:prompt="@string/serwer"
+    />
+<TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:text="@string/balance"
+    />
+<LinearLayout
+	android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	>
+	<TextView android:id="@+id/team1_r_textview" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:gravity="left"
+    	android:layout_weight="1"
+    	android:text="@string/team1"
+    	android:layout_marginLeft="5px"
+    	/>
+    <TextView android:id="@+id/balance_r_textview" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:layout_weight="1"
+    	android:text="50%"
+    	/>
+	<TextView android:id="@+id/team2_r_textview" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"
+    	android:gravity="right"
+    	android:layout_weight="1"
+    	android:text="@string/team2"
+    	android:layout_marginRight="5px"
+    	/>
+</LinearLayout>
+<ProgressBar android:id="@+id/balance_r_progressbar"
+		style="?android:attr/progressBarStyleHorizontal"
+		android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:max="100"
+    	android:progress="50"
+    	android:layout_margin="5px"
+    	android:layout_marginBottom="10px"
+    	/>
+<Button android:id="@+id/register_r_button"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/rejestruj"
+    	/>   
+</LinearLayout>
+</ScrollView>

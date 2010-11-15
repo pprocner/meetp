@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Meetp</string>
+<string name="logowanie">Logowanie</string>
+<string name="login">Login:</string>
+<string name="haslo">Hasło:</string>
+<string name="zaloguj">Zaloguj</string>
+<string name="zapamietaj">Zapamiętaj</string>
+<string name="nie_masz_konta">Nie masz jeszcze konta?</string>
+<string name="zarejestruj">Zarejestruj się</string>
+<string name="rejestracja">Rejestracja</string>
+<string name="dostepnosc">Sprawdź dostpność</string>
+<string name="powtorz_haslo">Powtórz hasło:</string>
+<string name="email">E-mail:</string>
+<string name="rejestruj">Rejestruj</string>
+<string name="email_konta">e-mail konta Google</string>
+<string name="serwer">Serwer:</string>
+<string-array name="serwer_array">
+	<item>Anioły i demony</item>
+    <item>Kot DaVinci</item>
+</string-array>
+<string name="dostepny">Dostępny</string>
+<string name="login_dostepny">Login jest dostępny</string>
+<string name="login_zajety">Login jest zajęty</string>
+<string name="wprowadz_login">Wprowadź login</string>
+<string name="balance">Balans drużyn:</string>
+<string name="team1">Team1</string>
+<string name="team2">Team2</string>
+<string name="showMe">Pokaż Mnie</string>
+<string name="showMyStats">Ja</string>
+<string name="showTeamStats">Moja drużyna</string>
+</resources>
